@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdNefedovModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GenreID" Type="Int64" Nullable="false" />
+    <Property Name="PagesAmount" Type="Int32" Nullable="false" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK_Book_Genre" FromRole="Book" ToRole="Genre" />
+    <NavigationProperty Name="PublicationOrder" Relationship="Self.FK_PublicationOrder_Book" FromRole="Book" ToRole="PublicationOrder" />
+    <Property Name="Edition" Type="Int64" Nullable="false" />
+    <Property Name="BookBinding" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PagesColor" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PagesFormat" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PublicationOrder" Relationship="Self.FK_PublicationOrder_Client" FromRole="Client" ToRole="PublicationOrder" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="GenreID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TitleGenre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_Book_Genre" FromRole="Genre" ToRole="Book" />
+  </EntityType>
+  <EntityType Name="PublicationOrder">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int64" Nullable="false" />
+    <Property Name="BookID" Type="Int64" Nullable="false" />
+    <Property Name="PublicationDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Edition" Type="Int32" Nullable="false" />
+    <Property Name="TotalCost" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_PublicationOrder_Book" FromRole="PublicationOrder" ToRole="Book" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_PublicationOrder_Client" FromRole="PublicationOrder" ToRole="Client" />
+  </EntityType>
+  <Association Name="FK_Book_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="GenreID" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PublicationOrder_Book">
+    <End Role="Book" Type="Self.Book" Multiplicity="1" />
+    <End Role="PublicationOrder" Type="Self.PublicationOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="PublicationOrder">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PublicationOrder_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="PublicationOrder" Type="Self.PublicationOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="PublicationOrder">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="bdNefedovEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Book" EntityType="Self.Book" />
+    <EntitySet Name="Client" EntityType="Self.Client" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" />
+    <EntitySet Name="PublicationOrder" EntityType="Self.PublicationOrder" />
+    <AssociationSet Name="FK_Book_Genre" Association="Self.FK_Book_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublicationOrder_Book" Association="Self.FK_PublicationOrder_Book">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="PublicationOrder" EntitySet="PublicationOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublicationOrder_Client" Association="Self.FK_PublicationOrder_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="PublicationOrder" EntitySet="PublicationOrder" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

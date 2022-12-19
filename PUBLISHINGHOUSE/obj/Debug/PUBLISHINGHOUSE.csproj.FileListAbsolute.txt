@@ -1,0 +1,85 @@
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe.config
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.pdb
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.AssemblyReference.cache
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.cache
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.lref
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.baml
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.baml
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.g.resources
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.Properties.Resources.resources
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.GenerateResource.cache
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.CoreCompileInputs.cache
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.exe
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.pdb
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.baml
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.baml
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.g.cs
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.baml
+C:\РАБОЧИЙ СТОЛ\stud\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe.config
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.pdb
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csprojAssemblyReference.cache
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.cache
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.lref
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.baml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.g.resources
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.Properties.Resources.resources
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.GenerateResource.cache
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.exe
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.pdb
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.dll
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.SqlServer.dll
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.xml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.SqlServer.xml
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\bin\Debug\ru\EntityFramework.resources.dll
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_Content.g.cs
+S:\gkjlklsglkdsgkoУПРВАВТОМБД\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.CopyComplete
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe.config
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.exe
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\PUBLISHINGHOUSE.pdb
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.dll
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.SqlServer.dll
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.xml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\EntityFramework.SqlServer.xml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\bin\Debug\ru\EntityFramework.resources.dll
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.AssemblyReference.cache
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_Content.g.cs
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.cache
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE_MarkupCompile.lref
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\App.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\AddClientPage.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\ClientPage.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\ListBooksPage.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\MainWindow.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\OrderPage.baml
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.g.resources
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.Properties.Resources.resources
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.GenerateResource.cache
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.CoreCompileInputs.cache
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.csproj.CopyComplete
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.exe
+C:\РАБОЧИЙ СТОЛ\WPFKR\PUBLISHINGHOUSE\obj\Debug\PUBLISHINGHOUSE.pdb

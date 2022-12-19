@@ -1,0 +1,85 @@
+﻿<Application x:Class="PUBLISHINGHOUSE.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PUBLISHINGHOUSE"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="btnClientsAndBooks" TargetType="Button">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="Orange"/>
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+
+           
+            
+        </Style>
+
+        <Style x:Key="txtClientAndBooks" TargetType="TextBlock">
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="TextDecorations" Value="underline"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+        
+        <Style x:Key="btnMakeOrder" TargetType="Button">
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Content" Value="СДЕЛАТЬ ЗАКАЗ"></Setter>
+            <Setter Property="FontSize" Value="50"></Setter>
+                    <Setter Property="Height" Value="70" />
+                    <Setter Property="Width" Value="400" />
+            <Setter Property="Focusable" Value="FALSE" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="White" />
+                    <Setter Property="Foreground" Value="Black" />
+                    <Setter Property="BorderThickness" Value="1" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="lblAddClient" TargetType="Label">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="FontSize" Value="25"></Setter>
+        </Style>
+        <Style x:Key="txtAddClient" TargetType="TextBox">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="HorizontalAlignment" Value="left"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+
+        <Style x:Key="cmbAddClient" TargetType="ComboBox">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="HorizontalAlignment" Value="left"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+    </Application.Resources>
+</Application>

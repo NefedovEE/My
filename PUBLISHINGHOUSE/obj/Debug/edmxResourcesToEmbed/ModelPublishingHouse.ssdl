@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище bdNefedovModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookTitle" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GenreID" Type="bigint" Nullable="false" />
+    <Property Name="PagesAmount" Type="int" Nullable="false" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="50" />
+    <Property Name="Edition" Type="bigint" Nullable="false" />
+    <Property Name="BookBinding" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PagesColor" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PagesFormat" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="GenreID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TitleGenre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PublicationOrder">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientID" Type="bigint" Nullable="false" />
+    <Property Name="BookID" Type="bigint" Nullable="false" />
+    <Property Name="PublicationDate" Type="date" Nullable="false" />
+    <Property Name="Edition" Type="int" Nullable="false" />
+    <Property Name="TotalCost" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Book_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="GenreID" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PublicationOrder_Book">
+    <End Role="Book" Type="Self.Book" Multiplicity="1" />
+    <End Role="PublicationOrder" Type="Self.PublicationOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="PublicationOrder">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PublicationOrder_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="PublicationOrder" Type="Self.PublicationOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="PublicationOrder">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище bdNefedovModelContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genre" EntityType="Self.Genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PublicationOrder" EntityType="Self.PublicationOrder" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Book_Genre" Association="Self.FK_Book_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublicationOrder_Book" Association="Self.FK_PublicationOrder_Book">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="PublicationOrder" EntitySet="PublicationOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PublicationOrder_Client" Association="Self.FK_PublicationOrder_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="PublicationOrder" EntitySet="PublicationOrder" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

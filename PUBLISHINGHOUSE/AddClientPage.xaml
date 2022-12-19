@@ -1,0 +1,71 @@
+﻿<Page x:Class="PUBLISHINGHOUSE.AddClientPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PUBLISHINGHOUSE"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddClientPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"></ColumnDefinition>
+            <ColumnDefinition Width="139*"></ColumnDefinition>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+            <ColumnDefinition Width="139*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="67*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <StackPanel Background="White" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4">
+            <Label Content="ДОБАВИТЬ КЛИЕНТА" HorizontalAlignment="Center" Style="{StaticResource lblAddClient}"></Label>
+
+        </StackPanel>
+
+        <StackPanel Background="White" Grid.Row="1" Grid.Column="0">
+            <Label Content="Фамилия" Style="{StaticResource lblAddClient}" ></Label>
+            <Label Content="Имя"  Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Отчество" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Телефон"  Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Адрес"  Style="{StaticResource lblAddClient}"></Label>
+        </StackPanel>
+        <StackPanel Background="White" Grid.Row="1" Grid.Column="1">
+            <TextBox x:Name="txtFam" Style="{StaticResource txtAddClient}" />
+            <TextBox x:Name="txtName" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtPatronymic" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtAdress" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtPhone" Style="{StaticResource txtAddClient}"></TextBox>
+        </StackPanel>
+
+        <StackPanel Background="White" Grid.Row="1" Grid.Column="2">
+            <Label Content="Название книги" Style="{StaticResource lblAddClient}" ></Label>
+            <Label Content="Жанр" Style="{StaticResource lblAddClient}" ></Label>
+            <Label Content="Тираж" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Кол-во страниц" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Переплёт" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Цвет страниц" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Формат листов" Style="{StaticResource lblAddClient}"></Label>
+            <Label Content="Цена" Style="{StaticResource lblAddClient}"></Label>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" Grid.Column="3" Background="White">
+
+            <TextBox x:Name="txtBookName" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtGenreBook" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtEdition" Style="{StaticResource txtAddClient}"></TextBox>
+            <TextBox x:Name="txtCountPages" Style="{StaticResource txtAddClient}"></TextBox>
+            <ComboBox x:Name="cmbBinding" Style="{StaticResource cmbAddClient}"></ComboBox>
+            <ComboBox x:Name="cmbColorful" Style="{StaticResource cmbAddClient}"></ComboBox>
+            <ComboBox x:Name="cmbFormat" Style="{StaticResource cmbAddClient}"></ComboBox>
+            <TextBox x:Name="txtPrice" Style="{StaticResource txtAddClient}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="4" Background="White">
+            <Button Height="30" Width="250">Добавить</Button>
+        </StackPanel>
+    </Grid>
+</Page>
